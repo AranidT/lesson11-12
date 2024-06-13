@@ -1,0 +1,49 @@
+.footer{
+    padding: 50px 80px 50px 50px;
+}
+
+.footer .footer__container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid darkgray;
+    padding-top: 50px;
+    border-bottom: 2px solid darkgray;
+    padding-bottom: 80px;
+}
+
+.footer .footer__container .footer__icon{
+    height: 50px;
+}
+
+img{
+    height: 100%;
+}
+
+.footer .footer__container .footer__catalog {
+    display: flex;
+}
+
+.footer .footer__container .footer__catalog .footer__list{
+    font-family: 'MyFont';
+    font-weight: 400;
+    font-size: 18px;
+    width: 100%;
+    margin-right: 150px;
+    list-style: none;
+}
+
+.footer .footer__container .footer__catalog .footer__list .active{
+    font-weight: 700;
+}
+
+.footer .footer__container .footer__catalog .footer__list :last-child{
+    margin-bottom: 0;
+}
+
+.footer .footer__container .footer__catalog .footer__list .footer__list__item{
+    margin-bottom: 17px;
+}
+
+.footer .footer__container .footer__catalog .footer__list :hover{
+    cursor: pointer;
+}
